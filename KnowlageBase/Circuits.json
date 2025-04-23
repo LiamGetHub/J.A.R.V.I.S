@@ -1,0 +1,18 @@
+[
+    {
+      "topic": "circuits",
+      "pattern": "ohm|ohm's law",
+      "response": "Ohm’s Law states that V = I * R, where V is voltage, I is current, and R is resistance."
+    },
+    {
+      "topic": "circuits",
+      "pattern": "kirchhoff",
+      "response": "Kirchhoff's laws involve conservation of current and voltage in circuits."
+    },
+    {
+      "topic": "circuits",
+      "pattern": "resistor color code",
+      "response": "The resistor color code uses bands of color to indicate resistance value and tolerance."
+    }
+  ]
+  
