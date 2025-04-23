@@ -1,0 +1,24 @@
+
+----- ----- File Structure ----- -----
+
+EngineeringJarvis/
+├── EngineeringJarvis.csproj         <-- Project file
+├── Program.cs                       <-- Main chatbot loop
+│
+├── /KnowledgeBase/                  <-- JSON knowledge files
+│   ├── circuits.json
+│   ├── physics.json
+│   └── statics.json
+│
+├── /Models/                         <-- Data models (POCOs)
+│   └── KnowledgeEntry.cs
+│
+├── /Services/                       <-- Core logic classes
+│   ├── KnowledgeBaseLoader.cs
+│   └── PatternMatcher.cs
+│
+├── /Utils/                          <-- Helper functions (optional)
+│   └── TextFormatter.cs            <-- (e.g., future: highlight keywords, colorize output)
+│
+└── /Tests/                          <-- Future: Unit tests for matching logic
+    └── PatternMatcherTests.cs

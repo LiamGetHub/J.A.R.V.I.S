@@ -1,0 +1,10 @@
+[
+  {
+    "question": "what is ohm's law?",
+    "answer": "Ohm’s Law states that V = I * R, where V is voltage, I is current, and R is resistance."
+  },
+  {
+    "question": "explain kirchhoff",
+    "answer": "Kirchhoff's laws involve conservation of current and voltage in circuits."
+  }
+]
